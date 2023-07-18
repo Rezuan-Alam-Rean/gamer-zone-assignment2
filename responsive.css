@@ -1,0 +1,50 @@
+
+
+
+/* for mobile */
+
+@media screen and (max-width: 576px) {
+    .logo-menu {
+        flex-direction: column;
+    }
+    .menu{
+        flex-direction: column;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+        width: 100%;
+    }
+
+
+
+
+
+    }
+
+
+    
+    /* for tablet */
+    @media screen and (min-width: 576px) and (max-width: 769px) {
+        .logo-menu {
+            flex-direction: column;
+        }
+        .menu{
+         
+            justify-content: center;
+        }
+        .logo{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          
+            width: 100%;
+        }
+    
+    }
+
+
+
+

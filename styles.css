@@ -1,77 +1,88 @@
   @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Work+Sans&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-}
+
+  * {
+      box-sizing: border-box;
+  }
+
+  * {
+      margin: 0;
+      padding: 0;
+  }
 
 
-body{
-   font-family: 'Work Sans', sans-serif;
-}
+  body {
+      font-family: 'Work Sans', sans-serif;
+  }
 
 
 
-.logo-menu {
-    display: flex;
-    justify-content: space-around;
-    background: #d9ced3;
-}
+  .logo-menu {
+      display: flex;
+      justify-content: space-around;
+      /* background: #d9ced3; */
+      width: 100%;
+      margin-bottom: 20px;
+  }
 
-.logo-img {
-    width: 86px;
-    height: 40px;
-
-}
-
-.logo-name {
-
-    font-family: Work Sans;
-    font-size: 45px;
-    font-weight: 700;
-
-}
-
-.span-gamer {
-    color: #f316b0;
-}
-
-.logo {
+  .logo {
+  
     display: flex;
     align-items: center;
+   
     gap: 20px;
     padding: 25px;
+    width: 50%;
 }
 
-.menu {
-    list-style: none;
-    display: flex;
-    gap: 30px;
-    padding-right: 10px;
-    font-family: Work Sans;
-    align-items: center;
-}
+  .logo-img {
+      width: 86px;
+      height: 40px;
 
-li a {
-    text-decoration: none;
+  }
 
-}
+  .logo-name {
 
-.follow-icon {
-    display: flex;
-    width: auto;
-    height: 40px;
-    align-items: center;
-    border-radius: 8px;
-    background: rgba(11, 2, 35, 0.10);
-    gap: 10px;
-    padding: 0px 15px;
-    
-}
+      font-family: Work Sans;
+      font-size: 45px;
+      font-weight: 700;
+
+  }
+
+  .span-gamer {
+      color: #f316b0;
+  }
+
+  
+  .menu {
+      list-style: none;
+      display: flex;
+      gap: 30px;
+      padding-right: 10px;
+      font-family: Work Sans;
+      align-items: center;
+  }
+
+  li a {
+      text-decoration: none;
+
+  }
+
+  .follow-icon {
+      display: flex;
+      width: auto;
+      height: 40px;
+      align-items: center;
+      border-radius: 8px;
+      background: rgba(11, 2, 35, 0.10);
+      gap: 10px;
+      padding: 0px 15px;
+
+  }
 
 
-.follow-icon  img {
-    width: 25px;
-    height: 20px;
-   
-}
+  .follow-icon img {
+      width: 25px;
+      height: 20px;
+
+  }
