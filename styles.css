@@ -265,7 +265,7 @@
 
 
   .game-title {
-      margin-top: 100px;
+      margin-top: 50px;
 
 
   }
@@ -391,6 +391,8 @@ text-align: center;
     text-align: center;
     justify-content: center;
     margin-top: 20px;
+    list-style: none;
+    gap: 30px;
   }
 
   .footer-btm{
